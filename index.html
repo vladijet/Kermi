@@ -3,8 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Стальные панельные радиаторы KERMI Комфорт</title>
-  <link rel="icon" type="image/png" href="favicon.png">
+<title>KERMI Комфорт — Стальные панельные радиаторы</title>
 <style>
   /* ========== RESET & BASE ========== */
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -428,6 +427,41 @@
   .bracket-dims-img { width: 100%; border-radius: 8px; margin: 20px 0 8px; border: 1px solid var(--mgrey); }
   @media(max-width:640px){ .bracket-grid-3,.bracket-grid-4 { grid-template-columns: 1fr 1fr; } .bracket-grid-2 { grid-template-columns: 1fr; } }
 
+
+  /* Вкладки подбора */
+  .sel-tab {
+    padding: 12px 28px;
+    font-size: 15px;
+    font-weight: 700;
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -2px;
+    color: #888;
+    cursor: pointer;
+    transition: all .2s;
+    white-space: nowrap;
+  }
+  .sel-tab-active {
+    border-bottom-color: var(--lime);
+    color: var(--dark);
+  }
+  @media (max-width: 768px) {
+    .sel-tab {
+      padding: 10px 16px;
+      font-size: 13px;
+    }
+  }
+  @media (max-width: 420px) {
+    .sel-tab {
+      padding: 8px 10px;
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    #sel-tabs-wrapper { display: none; }
+  }
 </style>
 </head>
 <body>
@@ -594,7 +628,7 @@
 </section>
 
 <!-- ========== СРАВНЕНИЕ ========== -->
-<section class="compare" id="compare">
+<section class="compare" id="compare" style="position:relative;z-index:1">
   <div class="container">
     <div class="section-tag">Преимущества</div>
     <h2>Преимущества<br>Керми Комфорт</h2>
@@ -627,7 +661,7 @@
           <tr>
             <td>Толщина лакокрасочного слоя</td>
             
-            <td class="td-good">100 мкм — в 5 раз толще</td>
+            <td class="td-good">100 мкм</td>
           </tr>
           <tr>
             <td>Цвет / палитра</td>
@@ -637,7 +671,7 @@
           <tr>
             <td>Гарантия</td>
             
-            <td class="td-good">15 лет (+5 лет благодаря CORREX и новой покраске)</td>
+            <td class="td-good">15 лет</td>
           </tr>
           <tr>
             <td>Производственная линия</td>
@@ -1489,16 +1523,16 @@
             <img style="width:110px;height:110px;object-fit:contain;flex-shrink:0;background:#f8f8f8;border-radius:6px;padding:8px" src="https://media.base44.com/images/public/69f20cdd1ade181e43a31fad/d5d29ecc1_ZB00186323-3135111222331.png" alt="ZB00186323">
             <div>
               <div class="bracket-art">ZB00186323</div>
-              <div class="bracket-name">Напольный кронштейн К 31.35</div>
-              <div class="bracket-sub" style="margin-top:6px;line-height:1.6">Напольный кронштейн К 31.35 предназначен для крепления радиаторов с боковым и нижним подключением высотой 200–600 мм типов: <strong>11, 12, 22, 33</strong>.<br>Рекомендуем: 2 кронштейна при длине 400–1600 мм, 3 кронштейна при длине 1700–3000 мм.<br>Продаётся поштучно. Упаковка — 10 шт.</div>
+              <div class="bracket-name">Напольный кронштейн</div>
+              <div class="bracket-sub" style="margin-top:6px;line-height:1.6">Напольный кронштейн предназначен для крепления радиаторов с боковым и нижним подключением высотой 200–600 мм типов: <strong>12, 22, 33</strong>.<br>Рекомендуем: 2 кронштейна при длине 400–1600 мм, 3 кронштейна при длине 1700–3000 мм.<br>Продаётся поштучно. Упаковка — 10 шт.</div>
             </div>
           </div>
           <div class="bracket-card" style="display:flex;gap:16px;align-items:center;padding:16px">
             <img style="width:110px;height:110px;object-fit:contain;flex-shrink:0;background:#f8f8f8;border-radius:6px;padding:8px" src="https://media.base44.com/images/public/69f20cdd1ade181e43a31fad/0227cb3de_ZB001493104701020301.png" alt="ZB00149310">
             <div>
               <div class="bracket-art">ZB00149310</div>
-              <div class="bracket-name">Напольный кронштейн КН 4.70</div>
-              <div class="bracket-sub" style="margin-top:6px;line-height:1.6">На кронштейны КН 4.70 монтируются радиаторы с боковым подключением с монтажными скобами, высотой 300, 400, 500 и 600 мм типов <strong>10, 11, 20, 12, 22, 30, 33</strong>.<br>При необходимости верхнюю часть стойки можно обрезать, место реза закрыть пластмассовой заглушкой.<br>Рекомендуем: 2 кронштейна при длине 400–1600 мм, 3 кронштейна при длине 1700–3000 мм.</div>
+              <div class="bracket-name">Напольный кронштейн</div>
+              <div class="bracket-sub" style="margin-top:6px;line-height:1.6">Монтируются радиаторы с боковым подключением с монтажными скобами, высотой 300, 400, 500 и 600 мм типов <strong>10, 11, 20, 12, 22, 30, 33</strong>.<br>При необходимости верхнюю часть стойки можно обрезать, место реза закрыть пластмассовой заглушкой.<br>Рекомендуем: 2 кронштейна при длине 400–1600 мм, 3 кронштейна при длине 1700–3000 мм.</div>
             </div>
           </div>
         </div>
@@ -1577,7 +1611,7 @@
             <img style="width:110px;height:110px;object-fit:contain;flex-shrink:0;background:#f8f8f8;border-radius:6px;padding:8px" src="https://media.base44.com/images/public/69f20cdd1ade181e43a31fad/d5d29ecc1_ZB00186323-3135111222331.png" alt="ZB00186323">
             <div>
               <div class="bracket-art">ZB00186323</div>
-              <div class="bracket-name">Напольный кронштейн К 31.35</div>
+              <div class="bracket-name">Напольный кронштейн</div>
               <div class="bracket-sub" style="margin-top:6px;line-height:1.6">Предназначен для крепления радиаторов FTU типов <strong>12, 22, 33</strong> высотой 200–600 мм.<br>Рекомендуем: 2 кронштейна при длине 400–1600 мм, 3 кронштейна при длине 1700–3000 мм.<br>Продаётся поштучно. Упаковка — 10 шт.</div>
             </div>
           </div>
@@ -1660,8 +1694,8 @@
             <img style="width:120px;height:120px;object-fit:contain;flex-shrink:0;background:#f8f8f8;border-radius:6px;padding:8px" src="https://media.base44.com/images/public/69f20cdd1ade181e43a31fad/0227cb3de_ZB001493104701020301.png" alt="ZB00149310">
             <div>
               <div class="bracket-art">ZB00149310</div>
-              <div class="bracket-name">Напольный кронштейн КН 4.70</div>
-              <div class="bracket-sub" style="margin-top:6px;line-height:1.6">На кронштейны КН 4.70 монтируются радиаторы с боковым подключением с монтажными скобами, высотой 300, 400, 500 и 600 мм типов <strong>10, 11, 20, 12, 22, 30, 33</strong>.<br>При необходимости верхнюю часть стойки можно обрезать, место реза закрыть пластмассовой заглушкой.<br>Рекомендуем: 2 кронштейна при длине 400–1600 мм, 3 кронштейна при длине 1700–3000 мм.</div>
+              <div class="bracket-name">Напольный кронштейн</div>
+              <div class="bracket-sub" style="margin-top:6px;line-height:1.6">Монтируются радиаторы с боковым подключением с монтажными скобами, высотой 300, 400, 500 и 600 мм типов <strong>10, 11, 20, 12, 22, 30, 33</strong>.<br>При необходимости верхнюю часть стойки можно обрезать, место реза закрыть пластмассовой заглушкой.<br>Рекомендуем: 2 кронштейна при длине 400–1600 мм, 3 кронштейна при длине 1700–3000 мм.</div>
             </div>
           </div>
         </div>
@@ -1672,7 +1706,7 @@
 </section>
 
 <!-- ========== ПОДБОР ========== -->
-<section class="selection" id="selection">
+<section class="selection" id="selection" style="position:relative;z-index:2">
   <div class="container">
     <div class="section-tag">Техподдержка</div>
     <h2>Техподдержка всегда на связи</h2>
@@ -1680,33 +1714,28 @@
     <p class="lead">Техподдержка оперативно помогает с подбором и переподбором радиаторов, а также сопровождает клиентов на всех этапах предпродажного и постпродажного обслуживания.</p>
 
     <!-- Таб-переключатель -->
+    <div id="sel-tabs-wrapper">
     <div style="display:flex;gap:0;border-bottom:2px solid #e0e0e0;margin-bottom:32px">
-      <button id="sel-tab-config" onclick="switchSelTab('config')" style="padding:12px 28px;font-size:15px;font-weight:700;background:none;border:none;border-bottom:3px solid var(--lime);margin-bottom:-2px;color:var(--dark);cursor:pointer;transition:all .2s">Конфигуратор подбора</button>
-      <button id="sel-tab-resel" onclick="switchSelTab('resel')" style="padding:12px 28px;font-size:15px;font-weight:700;background:none;border:none;border-bottom:3px solid transparent;margin-bottom:-2px;color:#888;cursor:pointer;transition:all .2s">Сервис переподбора</button>
+      <button id="sel-tab-config" onclick="switchSelTab('config')" class="sel-tab sel-tab-active">Конфигуратор подбора</button>
+      <button id="sel-tab-resel" onclick="switchSelTab('resel')" class="sel-tab">Сервис переподбора</button>
     </div>
 
     <!-- Раздел 1: Конфигуратор подбора -->
     <div id="sel-panel-config">
-      <p style="font-size:14px;color:var(--grey);margin-bottom:24px">Онлайн-конфигуратор расчета теплопотерь и подбора приборов Kermi. Для комплектовщиков, монтажников и частных лиц. Может быть встроен в сайт дилера.</p>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px">
-        <div style="border-radius:10px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)">
-          <img src="https://media.base44.com/images/public/69f20cdd1ade181e43a31fad/eeed6fa9f_1.png" alt="Подбор приборов отопления 1" style="width:100%;display:block">
-        </div>
-        <div style="border-radius:10px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)">
-          <img src="https://media.base44.com/images/public/69f20cdd1ade181e43a31fad/e558c0260_2.png" alt="Подбор приборов отопления 2" style="width:100%;display:block">
-        </div>
+      <p style="font-size:14px;color:var(--grey);margin-bottom:24px">Онлайн-конфигуратор расчета теплопотерь и подбора приборов Kermi. Для комплектовщиков, монтажников и частных лиц.</p>
+      <div style="max-width:680px;border-radius:10px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)">
+        <img src="https://base44.app/api/apps/69f20cdd1ade181e43a31fad/files/mp/public/69f20cdd1ade181e43a31fad/5a023ad2a_ec651ee26_.svg" alt="Конфигуратор подбора Kermi" style="width:100%;display:block">
       </div>
     </div>
 
     <!-- Раздел 2: Сервис переподбора -->
     <div id="sel-panel-resel" style="display:none">
       <p style="font-size:14px;color:var(--grey);margin-bottom:24px">Позволяет сделать переподбор на Kermi с любого бренда за 2 минуты при любом количестве строк в спецификации.</p>
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:20px">
-        <div style="border-radius:10px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)">
-          <img src="https://base44.app/api/apps/69f20cdd1ade181e43a31fad/files/mp/public/69f20cdd1ade181e43a31fad/45d0acfe3_Kermik_green.png" alt="Сервис переподбора — Умный бот Kermik" style="width:100%;display:block">
-        </div>
+      <div style="max-width:680px;border-radius:10px;overflow:hidden;box-shadow:0 2px 12px rgba(0,0,0,.08)">
+        <img src="https://base44.app/api/apps/69f20cdd1ade181e43a31fad/files/mp/public/69f20cdd1ade181e43a31fad/45d0acfe3_Kermik_green.png" alt="Сервис переподбора — Умный бот Kermik" style="width:100%;display:block">
       </div>
     </div>
+    </div><!-- /sel-tabs-wrapper -->
 
   </div>
 </section>
@@ -1715,10 +1744,10 @@
 function switchSelTab(tab) {
   document.getElementById('sel-panel-config').style.display = tab === 'config' ? '' : 'none';
   document.getElementById('sel-panel-resel').style.display = tab === 'resel' ? '' : 'none';
-  document.getElementById('sel-tab-config').style.borderBottomColor = tab === 'config' ? 'var(--lime)' : 'transparent';
-  document.getElementById('sel-tab-config').style.color = tab === 'config' ? 'var(--dark)' : '#888';
-  document.getElementById('sel-tab-resel').style.borderBottomColor = tab === 'resel' ? 'var(--lime)' : 'transparent';
-  document.getElementById('sel-tab-resel').style.color = tab === 'resel' ? 'var(--dark)' : '#888';
+  document.getElementById('sel-tab-config').className = tab === 'config' ? 'sel-tab sel-tab-active' : 'sel-tab';
+  
+  document.getElementById('sel-tab-resel').className = tab === 'resel' ? 'sel-tab sel-tab-active' : 'sel-tab';
+  
 }
 </script>
 
